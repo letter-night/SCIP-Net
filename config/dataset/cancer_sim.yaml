@@ -15,7 +15,7 @@ dataset:
   obs_coeff: 0.0                                        # Coefficient for observation intensity
   max_intensity: 1.0                                    # Maximum intensity of observation process
   max_seq_length: 30                                    # Max length of time series
-  projection_horizon: 1                                 # Range of tau-step-ahead prediction (tau = projection_horizon + 1).
+  projection_horizon: 2                                 # Range of tau-step-ahead prediction (tau = projection_horizon + 1).
                                                         # For GT: hyperparameter tuning done for projection_horizon=0, i.e. tau=1.
   cf_seq_mode: random_trajectories                      # fixed_treatment (/ sliding_treatment / random_trajectories)
   val_batch_size: 512                                   # Batch size for evaluation
